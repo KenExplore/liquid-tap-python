@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-requirements = ["websocket-client!=0.49"]
+requirements = []
 
 
 def readme():
