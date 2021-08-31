@@ -1,10 +1,11 @@
 import sched
 from threading import Thread
 from collections import defaultdict
-import websocket
 import logging
 import time
 import json
+
+from liquidtap import websocket
 
 
 class Connection(Thread):
